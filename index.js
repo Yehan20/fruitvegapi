@@ -3,7 +3,7 @@ import itemRouter from './router/items.router.js'
 
 const app = express();
 
-app.use('/public',express.static("public"))
+app.use('/',express.static("public"))
 
 app.use(itemRouter)
 
