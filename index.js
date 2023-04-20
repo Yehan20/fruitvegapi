@@ -5,7 +5,7 @@ const app = express();
 
 app.use('/',express.static("public"))
 
-app.use(itemRouter)
+app.use('/items',itemRouter)
 
 app.listen(3001,()=>{
     console.log('running');
