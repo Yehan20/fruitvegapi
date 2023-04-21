@@ -4,7 +4,8 @@ import setUrl from '../data/data.js'
 let imageUrl , vegetables;
 
 export const runMiddleWhere = (req,res,next)=>{
-    imageUrl=(req.protocol+ ":" + req.get('host') + "/images/" )
+    console.log(req.protocol)
+    imageUrl=( req.get('host') + "/images/" )
     vegetables =setUrl(imageUrl);
     next()
 }
