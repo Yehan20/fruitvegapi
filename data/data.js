@@ -6,7 +6,8 @@ const setUrl=(req)=>{
           ext:'CRT',
           Name:'Carrot',
           type:'Vegetables',
-          price:23,
+          desc:"Crisp and colorful, a perfect snack for any time of day! Best and Chepeast price from use dont miss it.",
+          price:15,
           src:req + 'carrot.jpg'
         },
         {
@@ -14,7 +15,8 @@ const setUrl=(req)=>{
             ext:'BT',
             Name:'Beet Root',
             type:'Vegetables',
-            price:23,
+            desc:"A powerhouse of nutrients in a vibrant, earthy package. Best and Chepeast price from use dont miss it.",
+            price:20,
             src:req + 'beetroot.jpg'
 
         },
@@ -23,7 +25,8 @@ const setUrl=(req)=>{
             ext:'CRL',
             Name:'Coliflour',
             type:'Vegetables',
-            price:23,
+            desc:"Versatile and delicious, it's the veggie that's anything but boring. Best and Chepeast price from use dont miss it.",
+            price:30,
             src:req + 'cauli-flower.jpg'
 
         }
@@ -32,8 +35,9 @@ const setUrl=(req)=>{
             id:4,
             ext:'TMT',
             Name:'Tomatoes',
+            desc:"Versatile and delicious, it's the veggie that's anything but boring. Best and Chepeast price from use dont miss it.",
             type:'Vegetables',
-            price:23,
+            price:25,
             src:req + 'tomatoes.jpeg'
 
         },
@@ -42,8 +46,9 @@ const setUrl=(req)=>{
             ext:'BRC',
             Name:'Brocoli',
             type:'Vegetables',
-            price:23,
-            src:req + 'brocoli.jpg'
+            price:35,
+            src:req + 'brocoli.jpg',
+            desc:"Green, crunchy, and oh so good for you – make broccoli your go-to veggie. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -51,7 +56,8 @@ const setUrl=(req)=>{
             ext:'BNS',
             Name:'Beans',
             type:'Vegetables',
-            price:23,
+            desc:"Protein-packed and oh so satisfying, beans are a vegetarian's best friend. Best and Chepeast price from use dont miss it.",
+            price:10,
             src:req + 'beans.jpg'
 
         }
@@ -60,7 +66,8 @@ const setUrl=(req)=>{
             ext:'PTS',
             Name:'Potatoes',
             type:'Vegetables',
-            price:23,
+            price:40,
+            desc:"Whether mashed, baked, or fried, potatoes are the ultimate comfort food. Best and Chepeast price from use dont miss it.",
             src:req + 'potatoes.jpg'
 
         }
@@ -69,8 +76,9 @@ const setUrl=(req)=>{
             ext:'CBG',
             Name:'Cabbage',
             type:'Vegetables',
-            price:23,
-            src:req + 'Cabbage.jpg'
+            price:33,
+            src:req + 'Cabbage.jpg',
+            desc:"Crisp and crunchy, this leafy veggie is perfect for salads or slaws. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -78,8 +86,10 @@ const setUrl=(req)=>{
             ext:'PPR',
             Name:'Pepper',
             type:'Vegetables',
-            price:23,
-            src:req + 'pepper.jpg'
+            price:45,
+            src:req + 'pepper.jpg',
+            desc:"Add some color and crunch to your meals with sweet or spicy peppers. Best and Chepeast price from use dont miss it.",
+
 
         },
         {
@@ -87,8 +97,9 @@ const setUrl=(req)=>{
             ext:'MSH',
             Name:'Mushroom',
             type:'Vegetables',
-            price:23,
-            src:req + 'mushroom.jpg'
+            price:25,
+            src:req + 'mushroom.jpg',
+            desc:"Earthy and flavorful, mushrooms are a must-have in any kitchen. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -96,8 +107,9 @@ const setUrl=(req)=>{
             ext:'ON',
             Name:'Onion',
             type:'Vegetables',
-            price:23,
-            src:req + 'onion.jpg'
+            price:50,
+            src:req + 'onion.jpeg'
+            ,desc:"The aromatic staple that adds depth and flavor to any dish Best and Chepeast price from use dont miss it.",
 
         },
         {
@@ -105,8 +117,9 @@ const setUrl=(req)=>{
             ext:'CRN',
             Name:'Corn',
             type:'Vegetables',
-            price:23,
-            src:req + 'corn.jpg'
+            price:80,
+            src:req + 'corn.jpg',
+            desc:"Sweet and juicy, fresh corn is the taste of summer in every bite. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -114,8 +127,9 @@ const setUrl=(req)=>{
             ext:'SPR',
             Name:'Sprouts',
             type:'Vegetables',
-            price:23,
+            price:45,
             src:req + 'sprouts.jpg'
+            ,desc:"Tender and delicate, sprouts add a fresh and nutritious crunch to any dish. Best and Chepeast price from use dont miss it.",
 
         },
         {
@@ -123,8 +137,9 @@ const setUrl=(req)=>{
             ext:'GRL',
             Name:'Garlic',
             type:'Vegetables',
-            price:23,
-            src:req + 'garlic.jpg'
+            price:38,
+            src:req + 'garlic.jpg',
+            desc:"Pungent and flavorful, garlic adds depth and richness to any meal. Best and Chepeast price from use dont miss it.",
 
         },
         {
@@ -132,8 +147,9 @@ const setUrl=(req)=>{
             ext:'BNN',
             Name:'Banana',
             type:'Fruit',
-            price:23,
-            src:req + 'banana.jpg'
+            price:25,
+            src:req + 'banana.jpg',
+            desc:"The perfect on-the-go snack – sweet, creamy, and packed with potassium. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -141,26 +157,30 @@ const setUrl=(req)=>{
             ext:'APL',
             Name:'Apple',
             type:'Fruit',
-            price:23,
-            src:req + 'apple.jpg'
+            price:50,
+            src:req + 'apple.jpg',
+            desc:"Crisp, juicy, and oh so satisfying – the ultimate snack any time of day. Best and Chepeast price from use dont miss it.",
 
         },
         {
             id:17,
-            ext:'STR',
-            Name:'Straweberry',
+            ext:'RSP',
+            Name:'Rasperry',
             type:'Fruit',
-            price:23,
-            src:req + 'stawberries.jpg'
+            price:10,
+            src:req + 'raspberry.jpg'
+            ,desc:"Tangy and sweet, raspberries are a burst of summer in every bite. Best and Chepeast price from use dont miss it.",
 
         },
+
         {
             id:18,
             ext:'PER',
             Name:'Pears',
             type:'Fruit',
-            price:23,
-            src:req + 'pears.jpg'
+            price:60,
+            src:req + 'pears.jpg',
+            desc:"Soft, juicy, and oh so sweet – pears are the perfect fall fruit.. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -168,8 +188,9 @@ const setUrl=(req)=>{
             ext:'ORG',
             Name:'Orange',
             type:'Fruit',
-            price:23,
-            src:req + 'orange.jpg'
+            price:55,
+            src:req + 'orange.png',
+            desc:"Bright and juicy, oranges are a refreshing and healthy snack any time of day. Best and Chepeast price from use dont miss it."
 
         },
         {
@@ -177,8 +198,9 @@ const setUrl=(req)=>{
             ext:'MNG',
             Name:'Mango',
             type:'Fruit',
-            price:23,
-            src:req + 'mango.jpg'
+            price:65,
+            src:req + 'mango.jpg',
+            desc:"Sweet and tropical, mangoes are a taste of paradise in every bite. Best and Chepeast price from use dont miss it.",
 
         },
         {
@@ -186,8 +208,9 @@ const setUrl=(req)=>{
             ext:'PA',
             Name:'PineApple',
             type:'Fruit',
-            price:23,
-            src:req + 'pine-apple.jpg'
+            price:100,
+            src:req + 'pine-apple.jpg',
+            desc:"Tropical and juicy, pineapples add a burst of flavor to any dish. Best and Chepeast price from use dont miss it.",
 
         },
         {
@@ -195,17 +218,29 @@ const setUrl=(req)=>{
             ext:'GRP',
             Name:'Graphes',
             type:'Fruit',
-            price:23,
-            src:req + 'graphes.png'
+            price:120,
+            src:req + 'graphes.png',
+            desc:"Small and mighty, grapes are packed with flavor and nutrients. Best and Chepeast price from use dont miss it.",
 
         },
         {
             id:23,
-            ext:'RSP',
-            Name:'Rasperry',
+            ext:'KV',
+            Name:'Kivi Fruit',
             type:'Fruit',
-            price:23,
-            src:req + 'raspberry.jpg'
+            price:65,
+            src:req + 'kivi.jpg',
+            desc:"Tangy and refreshing, kiwi fruit adds a pop of color and flavor to any dish. Best and Chepeast price from use dont miss it.",
+
+        },
+        {
+            id:24,
+            ext:'STR',
+            Name:'Straweberry',
+            type:'Fruit',
+            price:20,
+            src:req + 'strawberry.png',
+            desc:"Sweet and juicy, strawberries are the perfect summertime treat. Best and Chepeast price from use dont miss it."
 
         },
 
